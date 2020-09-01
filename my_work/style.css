@@ -1,0 +1,16 @@
+@media only screen and (max-width: 767px) {
+    #navbarc {
+        background-color: lightseagreen
+    }
+    #mynav {
+        background-color: lightseagreen;
+        background-size: 100%;
+    }
+    .dropdown-item {
+        color:#ededed;
+    }
+}
+
+body {
+    background-color: #ededed;
+}
