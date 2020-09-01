@@ -1,3 +1,4 @@
+/* for small and medium sized screens */
 @media only screen and (max-width: 767px) {
     #navbarc {
         background-color: lightseagreen
@@ -6,10 +7,65 @@
         background-color: lightseagreen;
         background-size: 100%;
     }
-    .dropdown-item {
+    .navbar-brand {
+        color: #ededed;
+    }
+    .nav-link, .dropdown-menu>a {
         color:#ededed;
     }
+    .dropdown-toggle {
+        background-color: lightseagreen;
+    }
+    .dropdown-menu {
+        background-color: rgb(24, 141, 135);
+        color: #ededed;
+    }
+    .navbar-toggler {
+        border-color: #ededed;
+        background-color: #ededed;
+        display: inline-block;
+        
+    }
+    /* reference - https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+    
+
 }
+
+/* for screens lager than medium */
+.navbar {
+    
+    padding: 0px 10px;
+    background-color: white;
+    background-size: 100%;
+    
+}
+.navbar-nav {
+    color: gray;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    font: calibri;
+}
+.navbar-brand {
+    font-size: 25px;
+    box-sizing: content-box;
+    padding: 10px 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    
+    background-color: lightseagreen;
+    color: #ededed;
+}
+.active {
+    background-color:rgb(192, 228, 225);
+    padding: 10px 15px;
+}
+
 
 body {
     background-color: #ededed;
