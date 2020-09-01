@@ -1,4 +1,4 @@
-/* for small and medium sized screens */
+/* for small sized screens(<= 767px) */
 @media only screen and (max-width: 767px) {
     #navbarc {
         background-color: lightseagreen
@@ -31,10 +31,11 @@
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
       }
     
+    
 
 }
 
-/* for screens lager than medium */
+/* for screens >= medium(768px) */
 .navbar {
     
     padding: 0px 10px;
@@ -69,4 +70,27 @@ a, a:hover, a:focus, a:active {
 
 body {
     background-color: #ededed;
+}
+.bigcon {
+    padding-top:50px;
+    padding-left:10%;
+    padding-right:10%;
+}
+.inner {
+    padding:2%;
+    background-color:white;
+}
+h1, h2 {
+    color: lightseagreen;
+}
+h2 {
+    text-align: center;
+}
+
+#active-img {
+    border: 5px solid rgb(192, 228, 225);
+}
+
+#visual_comp {
+    padding-top: 50px;
 }
