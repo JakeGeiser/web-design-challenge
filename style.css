@@ -36,6 +36,7 @@
 }
 
 /* for screens >= medium(768px) */
+/* for navbar styling (.navbar to .active) */
 .navbar {
     
     padding: 0px 10px;
@@ -67,7 +68,7 @@ a, a:hover, a:focus, a:active {
     padding: 10px 15px;
 }
 
-
+/* General styling */
 body {
     background-color: #ededed;
 }
@@ -95,6 +96,7 @@ h2 {
     padding-top: 50px;
 }
 
+/* For Data page */
 #mergedata {
     color: blue;
 }
