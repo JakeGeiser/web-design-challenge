@@ -94,3 +94,13 @@ h2 {
 #visual_comp {
     padding-top: 50px;
 }
+
+#mergedata {
+    color: blue;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px 10px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
